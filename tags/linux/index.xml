@@ -28,5 +28,15 @@
       
     </item>
     
+    <item>
+      <title>如何使用上古神器 VIM </title>
+      <link>https://lilkon.cn/posts/how-to-use-vim/</link>
+      <pubDate>Mon, 02 Jan 2023 20:21:44 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/how-to-use-vim/</guid>
+      <description>关于Vim # 首先在了解 Vim（Vi improved） 前我们先了解一下 Vi</description>
+      
+    </item>
+    
   </channel>
 </rss>
