@@ -7,6 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <atom:link href="https://lilkon.cn/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lilkon.cn/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>inekoxia</title>
+      <link>https://lilkon.cn/authors/inekoxia/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilkon.cn/authors/inekoxia/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Star</title>
+      <link>https://lilkon.cn/authors/star/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilkon.cn/authors/star/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
