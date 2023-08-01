@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Sun, 30 Jul 2023 18:22:44 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 20:35:33 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blowfish 主题的安装及配置</title>
+      <link>https://lilkon.cn/posts/blowfish-theme-install-and-config/</link>
+      <pubDate>Tue, 01 Aug 2023 20:35:33 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/blowfish-theme-install-and-config/</guid>
+      <description>安装 Installation # 新建 hugo 站点</description>
+      
+    </item>
+    
+    <item>
+      <title>2022-2023 设计作品集</title>
+      <link>https://lilkon.cn/posts/design-portfolio/</link>
+      <pubDate>Mon, 31 Jul 2023 19:42:01 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/design-portfolio/</guid>
+      <description>视频封面 &amp;amp; 软件宣传 &amp;amp; 海报 &amp;amp; UI 设计 # 总览 # 高考海报 # 2022年右 点击查看抖音分享</description>
+      
+    </item>
+    
     <item>
       <title>关于我About Me</title>
       <link>https://lilkon.cn/about/</link>

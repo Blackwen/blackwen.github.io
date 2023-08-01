@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Hello World &middot; Vinkokon&#39;s Blog</title>
-  <meta name="title" content="Hello World &middot; Vinkokon&#39;s Blog" />
+  <title>Blowfish 主题的安装及配置 &middot; Vinkokon&#39;s Blog</title>
+  <meta name="title" content="Blowfish 主题的安装及配置 &middot; Vinkokon&#39;s Blog" />
   
   
+  <meta name="keywords" content="博客, Hugo, 笔记, " />
   
   
-  
-  <link rel="canonical" href="https://lilkon.cn/posts/hello-world/" />
+  <link rel="canonical" href="https://lilkon.cn/posts/blowfish-theme-install-and-config/" />
   
   
   
@@ -61,16 +61,16 @@
   
   
   
-  <meta property="og:title" content="Hello World" />
-<meta property="og:description" content="" />
+  <meta property="og:title" content="Blowfish 主题的安装及配置" />
+<meta property="og:description" content="安装 Installation # 新建 hugo 站点" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lilkon.cn/posts/hello-world/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-07-30T18:22:44+08:00" />
-<meta property="article:modified_time" content="2023-07-30T18:22:44+08:00" />
+<meta property="og:url" content="https://lilkon.cn/posts/blowfish-theme-install-and-config/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-01T20:35:33+08:00" />
+<meta property="article:modified_time" content="2023-08-01T20:35:33+08:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hello World"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Blowfish 主题的安装及配置"/>
+<meta name="twitter:description" content="安装 Installation # 新建 hugo 站点"/>
 
   
   <script type="application/ld+json">
@@ -78,26 +78,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Hello World",
-    "headline": "Hello World",
+    "name": "Blowfish 主题的安装及配置",
+    "headline": "Blowfish 主题的安装及配置",
     
-    
+    "abstract": "安装 Installation # 新建 hugo 站点",
     "inLanguage": "en",
-    "url" : "https:\/\/lilkon.cn\/posts\/hello-world\/",
+    "url" : "https:\/\/lilkon.cn\/posts\/blowfish-theme-install-and-config\/",
     "author" : {
       "@type": "Person",
       "name": "VinKon"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-07-30T18:22:44\u002b08:00",
-    "datePublished": "2023-07-30T18:22:44\u002b08:00",
+    "dateCreated": "2023-08-01T20:35:33\u002b08:00",
+    "datePublished": "2023-08-01T20:35:33\u002b08:00",
     
-    "dateModified": "2023-07-30T18:22:44\u002b08:00",
+    "dateModified": "2023-08-01T20:35:33\u002b08:00",
     
-    
+    "keywords": ["博客","Hugo","笔记"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "92"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Hello World
+      Blowfish 主题的安装及配置
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -464,10 +464,12 @@
 
 
 
+
+
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-07-30 18:22:44 &#43;0800 CST">30 July 2023</time>
+  <time datetime="2023-08-01 20:35:33 &#43;0800 CST">1 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>92 words</span>
   
 
   
@@ -631,7 +633,105 @@
 
 
         <div class="max-w-prose mb-20">
-          
+          <div id="安装-installation" class="anchor"></div>
+<h2 class="relative group">安装 Installation 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%ae%89%e8%a3%85-installation" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>新建 <strong>hugo</strong> 站点</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo new site Newsite
+</span></span><span class="line"><span class="cl"><span class="c1"># 新建一个名为 Newsite 的站点</span>
+</span></span></code></pre></div><p>使用  <strong>git</strong>  安装</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Newsite
+</span></span><span class="line"><span class="cl"><span class="c1"># 打开文件夹</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="c1"># 初始化一个新的 git 储存库</span>
+</span></span><span class="line"><span class="cl">git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
+</span></span><span class="line"><span class="cl"><span class="c1"># 把主题添加到本地 </span>
+</span></span></code></pre></div><div id="配置" class="anchor"></div>
+<h2 class="relative group">配置 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e9%85%8d%e7%bd%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>先删除 <strong>hugo</strong> 自动生成的 <strong>hugo.tom</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">rm hugo.toml
+</span></span><span class="line"><span class="cl"><span class="c1"># 删除 hugo.toml</span>
+</span></span></code></pre></div><p>新建一个文件夹</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mkdir -p config/_default
+</span></span><span class="line"><span class="cl"><span class="c1"># -p 参数将自动创建上一级文件夹</span>
+</span></span></code></pre></div><p>将 <code>themes/blowfish/config/_default/ </code>下的所有文件全部复制到 <code>config/_default</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cp -r themes/blowfish/config/_default/*.toml config/_default
+</span></span><span class="line"><span class="cl"><span class="c1"># 将 themes/blowfish/config/_default/ 目录下所有 toml 文件复制到 config/_default</span>
+</span></span></code></pre></div><p>接下来大部分配置都在 config/_default/ 目录下完成</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># config/_default/config.toml</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">theme</span> <span class="o">=</span> <span class="s2">&#34;blowfish&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 将文件中设置主题的代码取消注释，否则会提示 Page Not Found</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="/home/black/Pictures/Screenshot_20230801_121319.png" alt="Screenshot_20230801_121319" />
+      
+    </figure>
+  
+
+</p>
+<p>然后回到项目第一级</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用该命令在本地浏览</span>
+</span></span><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><p>在浏览器访问//localhost:1313/（默认）就可以看到了、</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="/home/black/Pictures/Screenshot_20230801_122102.png" alt="Screenshot_20230801_122112" />
+      
+    </figure>
+  
+
+</p>
+<p>接下来我们可以配置主页显示的信息</p>
+<p>我们打开 <code>config/_default/languages.en.toml</code></p>
+<p>取消以下行注释</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="/home/black/Pictures/Screenshot_20230801_125008.png" alt="Screenshot_20230801_125008" />
+      
+    </figure>
+  
+
+</p>
+
         </div>
                 
         
@@ -642,8 +742,8 @@
       </div>
      
      <script>
-        var oid = "views_posts\/Hello-World.md"
-        var oid_likes = "likes_posts\/Hello-World.md"
+        var oid = "views_posts\/blowfish-theme-install-and-config.md"
+        var oid_likes = "likes_posts\/blowfish-theme-install-and-config.md"
       </script>
       
       
@@ -662,7 +762,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/install-deb-on-archlinux/">
+            <a class="flex group mr-3" href="/posts/design-portfolio/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -674,23 +774,6 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >在Arch Linux上安裝deb格式包</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-01-23 13:34:24 &#43;0800 CST">23 January 2023</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/posts/design-portfolio/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
                   >2022-2023 设计作品集</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
@@ -699,15 +782,10 @@
                   
                 </span>
               </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
@@ -719,7 +797,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
