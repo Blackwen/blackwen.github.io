@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Tue, 01 Aug 2023 20:35:33 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blowfish 主题的安装及配置</title>
-      <link>https://lilkon.cn/posts/blowfish-theme-install-and-config/</link>
-      <pubDate>Tue, 01 Aug 2023 20:35:33 +0800</pubDate>
-      
-      <guid>https://lilkon.cn/posts/blowfish-theme-install-and-config/</guid>
-      <description>安装 Installation # 新建 hugo 站点</description>
-      
-    </item>
-    
+    <lastBuildDate>Mon, 23 Jan 2023 13:34:24 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Arch Linux上安裝deb格式包</title>
       <link>https://lilkon.cn/posts/install-deb-on-archlinux/</link>

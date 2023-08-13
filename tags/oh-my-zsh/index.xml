@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oh-my-zsh on Vinkon&#39;s Blog</title>
+    <link>https://lilkon.cn/tags/oh-my-zsh/</link>
+    <description>Recent content in oh-my-zsh on Vinkon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 VinKon</copyright>
+    <lastBuildDate>Sat, 12 Aug 2023 21:04:14 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/oh-my-zsh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oh-my-zsh 插件推荐</title>
+      <link>https://lilkon.cn/posts/omz-plugins/</link>
+      <pubDate>Sat, 12 Aug 2023 21:04:14 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/omz-plugins/</guid>
+      <description>辅助向 # archlinux # 该插件简化了使用 ArchLinux 的包管理器时的组合命令，如</description>
+      
+    </item>
+    
+  </channel>
+</rss>
