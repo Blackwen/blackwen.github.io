@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kotlin on Vinkon&#39;s Blog</title>
+    <link>https://lilkon.cn/tags/kotlin/</link>
+    <description>Recent content in Kotlin on Vinkon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 VinKon</copyright>
+    <lastBuildDate>Mon, 21 Aug 2023 15:48:24 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotlin中文文档</title>
+      <link>https://lilkon.cn/posts/kotlin-docs-cn/</link>
+      <pubDate>Mon, 21 Aug 2023 15:48:24 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-docs-cn/</guid>
+      <description>Github仓库</description>
+      
+    </item>
+    
+  </channel>
+</rss>
