@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android开发 on Vinkon&#39;s Blog</title>
+    <link>https://lilkon.cn/tags/android%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in Android开发 on Vinkon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 VinKon</copyright>
+    <lastBuildDate>Tue, 22 Aug 2023 20:44:05 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/android%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jetpack Compose入门笔记-配置依赖</title>
+      <link>https://lilkon.cn/posts/set-up-jetpack-compose/</link>
+      <pubDate>Tue, 22 Aug 2023 20:44:05 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/set-up-jetpack-compose/</guid>
+      <description>打开Android Studio(IntelliJ IDEA)，新建一个Kotlin Android项目</description>
+      
+    </item>
+    
+  </channel>
+</rss>
