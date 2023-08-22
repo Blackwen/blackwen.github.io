@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Mon, 21 Aug 2023 15:48:24 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 20:44:05 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jetpack Compose入门笔记-配置依赖</title>
+      <link>https://lilkon.cn/posts/set-up-jetpack-compose/</link>
+      <pubDate>Tue, 22 Aug 2023 20:44:05 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/set-up-jetpack-compose/</guid>
+      <description>打开Android Studio(IntelliJ IDEA)，新建一个Kotlin Android项目</description>
+      
+    </item>
+    
     <item>
       <title>Kotlin中文文档</title>
       <link>https://lilkon.cn/posts/kotlin-docs-cn/</link>
