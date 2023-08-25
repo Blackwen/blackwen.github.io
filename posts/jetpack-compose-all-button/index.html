@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Jetpack Compose入门笔记-配置依赖 &middot; Vinkon&#39;s Blog</title>
-  <meta name="title" content="Jetpack Compose入门笔记-配置依赖 &middot; Vinkon&#39;s Blog" />
+  <title>JetpackCompose组件介绍-Button &middot; Vinkon&#39;s Blog</title>
+  <meta name="title" content="JetpackCompose组件介绍-Button &middot; Vinkon&#39;s Blog" />
   
   
-  <meta name="keywords" content="Kotlin, Jetpack-Compose, Android开发, " />
+  <meta name="keywords" content="Android开发, Jetpack-Compose, " />
   
   
-  <link rel="canonical" href="https://lilkon.cn/posts/set-up-jetpack-compose/" />
+  <link rel="canonical" href="https://lilkon.cn/posts/jetpack-compose-all-button/" />
   
   
   
@@ -61,16 +61,16 @@
   
   
   
-  <meta property="og:title" content="Jetpack Compose入门笔记-配置依赖" />
-<meta property="og:description" content="打开Android Studio(IntelliJ IDEA)，新建一个Kotlin Android项目" />
+  <meta property="og:title" content="JetpackCompose组件介绍-Button" />
+<meta property="og:description" content="此图片来自Material You官网" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lilkon.cn/posts/set-up-jetpack-compose/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-08-22T20:44:05+08:00" />
-<meta property="article:modified_time" content="2023-08-22T20:44:05+08:00" />
+<meta property="og:url" content="https://lilkon.cn/posts/jetpack-compose-all-button/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-24T23:13:08+08:00" />
+<meta property="article:modified_time" content="2023-08-24T23:13:08+08:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jetpack Compose入门笔记-配置依赖"/>
-<meta name="twitter:description" content="打开Android Studio(IntelliJ IDEA)，新建一个Kotlin Android项目"/>
+<meta name="twitter:title" content="JetpackCompose组件介绍-Button"/>
+<meta name="twitter:description" content="此图片来自Material You官网"/>
 
   
   <script type="application/ld+json">
@@ -78,26 +78,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Jetpack Compose入门笔记-配置依赖",
-    "headline": "Jetpack Compose入门笔记-配置依赖",
+    "name": "JetpackCompose组件介绍-Button",
+    "headline": "JetpackCompose组件介绍-Button",
     
-    "abstract": "打开Android Studio(IntelliJ IDEA)，新建一个Kotlin Android项目",
+    "abstract": "此图片来自Material You官网",
     "inLanguage": "en",
-    "url" : "https:\/\/lilkon.cn\/posts\/set-up-jetpack-compose\/",
+    "url" : "https:\/\/lilkon.cn\/posts\/jetpack-compose-all-button\/",
     "author" : {
       "@type": "Person",
       "name": "VinKon"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-08-22T20:44:05\u002b08:00",
-    "datePublished": "2023-08-22T20:44:05\u002b08:00",
+    "dateCreated": "2023-08-24T23:13:08\u002b08:00",
+    "datePublished": "2023-08-24T23:13:08\u002b08:00",
     
-    "dateModified": "2023-08-22T20:44:05\u002b08:00",
+    "dateModified": "2023-08-24T23:13:08\u002b08:00",
     
-    "keywords": ["Kotlin","Jetpack-Compose","Android开发"],
+    "keywords": ["Android开发","Jetpack-Compose"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "156"
+    "wordCount": "140"
   }]
   </script>
 
@@ -428,7 +428,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Jetpack Compose入门笔记-配置依赖
+      JetpackCompose组件介绍-Button
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -469,7 +469,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-08-22 20:44:05 &#43;0800 CST">22 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>156 words</span>
+  <time datetime="2023-08-24 23:13:08 &#43;0800 CST">24 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>140 words</span>
   
 
   
@@ -633,50 +633,224 @@
 
 
         <div class="max-w-prose mb-20">
-          <p>打开Android Studio(IntelliJ IDEA)，新建一个Kotlin Android项目</p>
-<p>创建完毕后，打开<code>app:build.gradle.kts</code>，添加以下依赖</p>
-<pre tabindex="0"><code>	val composeBom = platform(&#34;androidx.compose:compose-bom:2023.01.00&#34;)
-    implementation(composeBom)
-    androidTestImplementation(composeBom)
+          <p>
 
-    // Choose one of the following:
-    // Material Design 3
-    implementation(&#34;androidx.compose.material3:material3&#34;)
-    // or Material Design 2
-    implementation(&#34;androidx.compose.material:material&#34;)
-    // or skip Material Design and build directly on top of foundational components
-    implementation(&#34;androidx.compose.foundation:foundation&#34;)
-    // or only import the main APIs for the underlying toolkit systems,
-    // such as input and measurement/layout
-    implementation(&#34;androidx.compose.ui:ui&#34;)
 
-    // Android Studio Preview support
-    implementation(&#34;androidx.compose.ui:ui-tooling-preview&#34;)
-    debugImplementation(&#34;androidx.compose.ui:ui-tooling&#34;)
 
-    // UI Tests
-    androidTestImplementation(&#34;androidx.compose.ui:ui-test-junit4&#34;)
-    debugImplementation(&#34;androidx.compose.ui:ui-test-manifest&#34;)
 
-    // Optional - Included automatically by material, only add when you need
-    // the icons but not the material library (e.g. when using Material3 or a
-    // custom design system based on Foundation)
-    implementation(&#34;androidx.compose.material:material-icons-core&#34;)
-    // Optional - Add full set of material icons
-    implementation(&#34;androidx.compose.material:material-icons-extended&#34;)
-    // Optional - Add window size utils
-    implementation(&#34;androidx.compose.material3:material3-window-size-class&#34;)
+  <figure>
+    <img class="my-0 rounded-md" src="https://lh3.googleusercontent.com/-ZA5rZmbZHsg01D2xWH3U8_oLvviEPddXPs32hueCDeD6Q-xU8OUNbg3hRE8xTl6Z8kQYM0qPCZ3PAM152e1c6Q-8rck8N6sdJmtI6Hcux4=s0" alt="AllButton" />
+    
+  </figure>
 
-    // Optional - Integration with activities
-    implementation(&#34;androidx.activity:activity-compose:1.6.1&#34;)
-    // Optional - Integration with ViewModels
-    implementation(&#34;androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1&#34;)
-    // Optional - Integration with LiveData
-    implementation(&#34;androidx.compose.runtime:runtime-livedata&#34;)
-    // Optional - Integration with RxJava
-    implementation(&#34;androidx.compose.runtime:runtime-rxjava2&#34;)
-</code></pre><p>参考<a href="https://developer.android.com/jetpack/compose/setup"   target="_blank">
-    Quick start</a></p>
+</p>
+<p>此图片来自Material You官网</p>
+<div id="elevatedbutton-阴影按钮带图标" class="anchor"></div>
+<h2 class="relative group">ElevatedButton 阴影按钮(带图标) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#elevatedbutton-%e9%98%b4%e5%bd%b1%e6%8c%89%e9%92%ae%e5%b8%a6%e5%9b%be%e6%a0%87" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl">	<span class="n">ElevatedButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Icon</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="n">imageVector</span> <span class="p">=</span> <span class="nc">Icons</span><span class="p">.</span><span class="nc">Default</span><span class="p">.</span><span class="n">Add</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">contentDescription</span> <span class="p">=</span> <span class="s2">&#34;Test&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">16.</span><span class="n">dp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Spacer</span><span class="p">(</span><span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="n">width</span><span class="p">(</span><span class="m">8.</span><span class="n">dp</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Text</span><span class="p">(</span><span class="n">text</span> <span class="p">=</span> <span class="s2">&#34;New a Word&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825185739067.png" alt="image-20230825185739067" />
+    
+  </figure>
+
+</p>
+<div id="button-按钮默认" class="anchor"></div>
+<h2 class="relative group">Button 按钮(默认) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#button-%e6%8c%89%e9%92%ae%e9%bb%98%e8%ae%a4" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Kotlin" data-lang="Kotlin"><span class="line"><span class="cl">	<span class="n">Button</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Text</span><span class="p">(</span><span class="n">text</span> <span class="p">=</span> <span class="s2">&#34;Show All&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825185709434.png" alt="image-20230825185709434" />
+    
+  </figure>
+
+</p>
+<div id="filledtonalbutton-填充色调按钮" class="anchor"></div>
+<h2 class="relative group">FilledTonalButton 填充色调按钮 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#filledtonalbutton-%e5%a1%ab%e5%85%85%e8%89%b2%e8%b0%83%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl">	<span class="n">FilledTonalButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Text</span><span class="p">(</span><span class="n">text</span> <span class="p">=</span> <span class="s2">&#34;Visit site&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825185609817.png" alt="image-20230825185609817" />
+    
+  </figure>
+
+</p>
+<div id="outlinedbutton-边框按钮" class="anchor"></div>
+<h2 class="relative group">OutlinedButton 边框按钮 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#outlinedbutton-%e8%be%b9%e6%a1%86%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Kotlin" data-lang="Kotlin"><span class="line"><span class="cl">	<span class="n">OutlinedButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	    <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    		<span class="n">Text</span><span class="p">(</span><span class="n">text</span> <span class="p">=</span> <span class="s2">&#34;Enable&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825185820952.png" alt="image-20230825185820952" />
+    
+  </figure>
+
+</p>
+<div id="textbutton-文本按钮" class="anchor"></div>
+<h2 class="relative group">TextButton 文本按钮 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#textbutton-%e6%96%87%e6%9c%ac%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Kotlin" data-lang="Kotlin"><span class="line"><span class="cl">	<span class="n">TextButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Text</span><span class="p">(</span><span class="n">text</span> <span class="p">=</span> <span class="s2">&#34;Text&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825185905972.png" alt="image-20230825185905972" />
+    
+  </figure>
+
+</p>
+<div id="iconbutton-图标按钮" class="anchor"></div>
+<h2 class="relative group">IconButton 图标按钮 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#iconbutton-%e5%9b%be%e6%a0%87%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Kotlin" data-lang="Kotlin"><span class="line"><span class="cl">	<span class="n">IconButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Icon</span><span class="p">(</span><span class="n">imageVector</span> <span class="p">=</span> <span class="nc">Icons</span><span class="p">.</span><span class="nc">Default</span><span class="p">.</span><span class="n">StarBorder</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">contentDescription</span> <span class="p">=</span> <span class="s2">&#34;Test&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825190059436.png" alt="image-20230825190042082" />
+    
+  </figure>
+
+</p>
+<div id="floatingactionbutton-浮动操作按钮" class="anchor"></div>
+<h2 class="relative group">FloatingActionButton 浮动操作按钮 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#floatingactionbutton-%e6%b5%ae%e5%8a%a8%e6%93%8d%e4%bd%9c%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Kotlin" data-lang="Kotlin"><span class="line"><span class="cl">	<span class="n">FloatingActionButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Icon</span><span class="p">(</span><span class="n">imageVector</span> <span class="p">=</span> <span class="nc">Icons</span><span class="p">.</span><span class="nc">Default</span><span class="p">.</span><span class="n">Add</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">contentDescription</span> <span class="p">=</span> <span class="s2">&#34;Test&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">24.</span><span class="n">dp</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Spacer</span><span class="p">(</span><span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="n">width</span><span class="p">(</span><span class="m">8.</span><span class="n">dp</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825190121282.png" alt="image-20230825190121282" />
+    
+  </figure>
+
+</p>
+<div id="extendedfloatingactionbutton-扩展浮动操作按钮" class="anchor"></div>
+<h2 class="relative group">ExtendedFloatingActionButton 扩展浮动操作按钮 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#extendedfloatingactionbutton-%e6%89%a9%e5%b1%95%e6%b5%ae%e5%8a%a8%e6%93%8d%e4%bd%9c%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Kotlin" data-lang="Kotlin"><span class="line"><span class="cl">	<span class="n">ExtendedFloatingActionButton</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Icon</span><span class="p">(</span><span class="n">imageVector</span> <span class="p">=</span> <span class="nc">Icons</span><span class="p">.</span><span class="nc">Default</span><span class="p">.</span><span class="n">Add</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">contentDescription</span> <span class="p">=</span> <span class="s2">&#34;Test&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">24.</span><span class="n">dp</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Spacer</span><span class="p">(</span><span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="n">width</span><span class="p">(</span><span class="m">8.</span><span class="n">dp</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Text</span><span class="p">(</span><span class="n">text</span> <span class="p">=</span> <span class="s2">&#34;Test&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span></code></pre></div><p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://img.lilkon.cn/Blog/JepackCompose/image-20230825190222144.png" alt="image-20230825190222144" />
+    
+  </figure>
+
+</p>
 
         </div>
                 
@@ -688,8 +862,8 @@
       </div>
      
      <script>
-        var oid = "views_posts\/Set-Up-Jetpack-Compose.md"
-        var oid_likes = "likes_posts\/Set-Up-Jetpack-Compose.md"
+        var oid = "views_posts\/Jetpack-Compose-All-Button.md"
+        var oid_likes = "likes_posts\/Jetpack-Compose-All-Button.md"
       </script>
       
       
@@ -708,7 +882,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/kotlin-docs-cn/">
+            <a class="flex group mr-3" href="/posts/set-up-jetpack-compose/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -720,11 +894,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Kotlin中文文档</span
+                  >Jetpack Compose入门笔记-配置依赖</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-08-21 15:48:24 &#43;0800 CST">21 August 2023</time>
+                    <time datetime="2023-08-22 20:44:05 &#43;0800 CST">22 August 2023</time>
                   
                 </span>
               </span>
@@ -732,28 +906,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/posts/jetpack-compose-all-button/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >JetpackCompose组件介绍-Button</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-08-24 23:13:08 &#43;0800 CST">24 August 2023</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
