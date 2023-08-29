@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Mon, 28 Aug 2023 21:40:00 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 16:03:50 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexadecimal 学习</title>
+      <link>https://lilkon.cn/posts/hexadecimal-study/</link>
+      <pubDate>Tue, 29 Aug 2023 16:03:50 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/hexadecimal-study/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>JetpackCompose组件介绍-Top app bar</title>
       <link>https://lilkon.cn/posts/jetpack-compose-top-app-bar/</link>
@@ -109,6 +119,16 @@
     </item>
     
     <item>
+      <title>友链Links</title>
+      <link>https://lilkon.cn/links/</link>
+      <pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilkon.cn/links/</guid>
+      <description>交换友链 # 如需申请友链，请准备以下信息 Warning!</description>
+      
+    </item>
+    
+    <item>
       <title>在Arch Linux上安裝deb格式包</title>
       <link>https://lilkon.cn/posts/install-deb-on-archlinux/</link>
       <pubDate>Mon, 23 Jan 2023 13:34:24 +0800</pubDate>
@@ -145,16 +165,6 @@
       
       <guid>https://lilkon.cn/posts/one-hundred-years-of-solitude-character-relationship/</guid>
       <description>关于百年孤独 # 《Cien años de soledad（百年孤独）》，是哥伦比亚作家加西亚·马尔克斯创作的长篇小说，是其代表作，也是拉丁美洲魔幻现实主义文学的代表作，被誉为“再现拉丁美洲历史社会图景的鸿篇巨著”。 作品描写了布恩迪亚家族七代人的传奇故事，以及加勒比海沿岸小镇马孔多的百年兴衰，反映了拉丁美洲一个世纪以来风云变幻的历史。作品融入神话传说、民间故事、宗教典故等神秘因素，巧妙地糅合了现实与虚幻，展现出一个瑰丽的想象世界，成为20世纪重要的经典文学巨著之一。</description>
-      
-    </item>
-    
-    <item>
-      <title>友链Links</title>
-      <link>https://lilkon.cn/links/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lilkon.cn/links/</guid>
-      <description></description>
       
     </item>
     
