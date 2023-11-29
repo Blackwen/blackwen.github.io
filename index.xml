@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Thu, 26 Oct 2023 18:30:01 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 13:59:28 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解決Hyprland下的截圖問題</title>
+      <link>https://lilkon.cn/posts/hyprland-screenshot/</link>
+      <pubDate>Tue, 28 Nov 2023 13:59:28 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/hyprland-screenshot/</guid>
+      <description>安装 Grim # flameshot（火焰截图）在 Wayland 下不可用</description>
+      
+    </item>
+    
     <item>
       <title>IELTS Study Notes-WRITING TASK2审题篇</title>
       <link>https://lilkon.cn/posts/ielts-write-test1/</link>

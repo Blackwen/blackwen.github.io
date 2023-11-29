@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://lilkon.cn/posts/ielts-write-test1/</loc>
-    <lastmod>2023-10-26T18:30:01+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://lilkon.cn/posts/</loc>
-    <lastmod>2023-10-26T18:30:01+08:00</lastmod>
+    <lastmod>2023-11-28T13:59:28+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lilkon.cn/</loc>
+    <lastmod>2023-11-28T13:59:28+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilkon.cn/posts/hyprland-screenshot/</loc>
+    <lastmod>2023-11-28T13:59:28+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilkon.cn/posts/ielts-write-test1/</loc>
     <lastmod>2023-10-26T18:30:01+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
