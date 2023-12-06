@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Tue, 28 Nov 2023 13:59:28 +0800</lastBuildDate><atom:link href="https://lilkon.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Dec 2023 12:09:27 +0800</lastBuildDate><atom:link href="https://lilkon.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 3 Minutes</title>
+      <link>https://lilkon.cn/posts/python-3-minutes/</link>
+      <pubDate>Sat, 02 Dec 2023 12:09:27 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/python-3-minutes/</guid>
+      <description>python的学习笔记</description>
+      
+    </item>
+    
     <item>
       <title>解決Hyprland下的截圖問題</title>
       <link>https://lilkon.cn/posts/hyprland-screenshot/</link>
