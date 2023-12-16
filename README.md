@@ -5,6 +5,6 @@ My Blog
 
 [VinKon's Blog](https://www.lilkon.cn/) (CN)
 
-[VinKon's Blog](https://www.lilkon.me/) (ME)
+[VinKon's Blog](https://lilkon.me/) (ME)
 
 [VinKon's Blog](https://www.lilkon.tech/) (TECH)
