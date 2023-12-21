@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://lilkon.cn/posts/happy-birthday/</loc>
-    <lastmod>2023-12-16T00:00:34+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://lilkon.cn/posts/</loc>
-    <lastmod>2023-12-16T00:00:34+08:00</lastmod>
+    <lastmod>2023-12-20T21:08:30+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lilkon.cn/</loc>
+    <lastmod>2023-12-20T21:08:30+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilkon.cn/posts/terminal-based-presentation-tool-slides/</loc>
+    <lastmod>2023-12-20T21:08:30+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilkon.cn/posts/happy-birthday/</loc>
     <lastmod>2023-12-16T00:00:34+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

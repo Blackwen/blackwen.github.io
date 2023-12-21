@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 VinKon</copyright>
-    <lastBuildDate>Tue, 28 Nov 2023 13:59:28 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 21:08:30 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基于终端的Markdown演示工具-Slides</title>
+      <link>https://lilkon.cn/posts/terminal-based-presentation-tool-slides/</link>
+      <pubDate>Wed, 20 Dec 2023 21:08:30 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/terminal-based-presentation-tool-slides/</guid>
+      <description>Slides 是一个终端下的Markdown演示工具</description>
+      
+    </item>
+    
     <item>
       <title>解決Hyprland下的截圖問題</title>
       <link>https://lilkon.cn/posts/hyprland-screenshot/</link>
