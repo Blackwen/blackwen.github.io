@@ -4,13 +4,19 @@
 
   <url>
     <loc>https://lilkon.cn/posts/</loc>
-    <lastmod>2023-12-20T21:08:30+08:00</lastmod>
+    <lastmod>2023-12-31T21:11:02+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lilkon.cn/</loc>
-    <lastmod>2023-12-20T21:08:30+08:00</lastmod>
+    <lastmod>2023-12-31T21:11:02+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilkon.cn/posts/year-end-review-of-2023/</loc>
+    <lastmod>2023-12-31T21:11:02+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
