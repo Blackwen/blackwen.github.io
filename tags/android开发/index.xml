@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 VinKon</copyright>
-    <lastBuildDate>Sat, 16 Sep 2023 21:34:23 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/android%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2024 19:37:52 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/android%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记一次Kotlin 报错:No such file or directory</title>
+      <link>https://lilkon.cn/posts/kotlin-error-240112/</link>
+      <pubDate>Fri, 12 Jan 2024 19:37:52 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-error-240112/</guid>
+      <description>今天在学习 Kotlin 的时候,想要实现解析JSON文件,在读取文件时一直提示没有文件或者目录(No such file or directory),当时目录结构是:</description>
+      
+    </item>
+    
     <item>
       <title>JetpackCompose组件介绍-Dialogs</title>
       <link>https://lilkon.cn/posts/jetpack-compose-dialogs/</link>
