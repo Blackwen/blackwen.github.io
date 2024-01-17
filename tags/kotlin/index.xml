@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 VinKon</copyright>
-    <lastBuildDate>Fri, 12 Jan 2024 19:37:52 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jan 2024 20:46:26 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotlin Multiplatform (KMP) Kotlin 多平台开发入门</title>
+      <link>https://lilkon.cn/posts/kotlin-multiplatform-tutorial-01/</link>
+      <pubDate>Wed, 17 Jan 2024 20:46:26 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-multiplatform-tutorial-01/</guid>
+      <description>借助 JetBrains 开发的基于 Kotlin 的声明式 UI 框架 Compose Multiplatform ,可以在移动端(Android 和 IOS), 桌面端(Windows,macOS和Linux)以及网页端上使用相同的 Kotlin 代码来构建用户界面.</description>
+      
+    </item>
+    
     <item>
       <title>记一次Kotlin 报错:No such file or directory</title>
       <link>https://lilkon.cn/posts/kotlin-error-240112/</link>
