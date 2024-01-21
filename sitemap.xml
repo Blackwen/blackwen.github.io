@@ -21,6 +21,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://lilkon.cn/posts/kotlin-error-240118/</loc>
+    <lastmod>2024-01-18T13:31:31+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://lilkon.cn/posts/kotlin-multiplatform-tutorial-01/</loc>
     <lastmod>2024-01-17T20:46:26+08:00</lastmod>
     <changefreq>daily</changefreq>

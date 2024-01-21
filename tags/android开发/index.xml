@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 VinKon</copyright>
-    <lastBuildDate>Fri, 12 Jan 2024 19:37:52 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/android%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jan 2024 13:31:31 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/android%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotlin Multiplatform 构建报错:Failed to find Build Tools</title>
+      <link>https://lilkon.cn/posts/kotlin-error-240118/</link>
+      <pubDate>Thu, 18 Jan 2024 13:31:31 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-error-240118/</guid>
+      <description>在尝试运行 KMP项目时 提示Failed to find Build Tools但已经在 SDK Manger 中安装了</description>
+      
+    </item>
+    
     <item>
       <title>记一次Kotlin 报错:No such file or directory</title>
       <link>https://lilkon.cn/posts/kotlin-error-240112/</link>

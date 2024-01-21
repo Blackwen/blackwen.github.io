@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Kotlin Multiplatform 构建报错:Failed to find Build Tools</title>
+      <link>https://lilkon.cn/posts/kotlin-error-240118/</link>
+      <pubDate>Thu, 18 Jan 2024 13:31:31 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-error-240118/</guid>
+      <description>在尝试运行 KMP项目时 提示Failed to find Build Tools但已经在 SDK Manger 中安装了</description>
+      
+    </item>
+    
+    <item>
       <title>Kotlin Multiplatform (KMP) Kotlin 多平台开发入门</title>
       <link>https://lilkon.cn/posts/kotlin-multiplatform-tutorial-01/</link>
       <pubDate>Wed, 17 Jan 2024 20:46:26 +0800</pubDate>
