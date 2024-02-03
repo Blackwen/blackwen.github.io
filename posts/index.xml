@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 VinKon</copyright>
-    <lastBuildDate>Fri, 02 Feb 2024 22:10:59 +0800</lastBuildDate><atom:link href="https://lilkon.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Feb 2024 00:13:12 +0800</lastBuildDate><atom:link href="https://lilkon.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wavy-slider-一个类似于 Android 13 中的kotlin多平台波浪进度条库</title>
+      <link>https://lilkon.cn/posts/kotlin-wavy-slider/</link>
+      <pubDate>Sun, 04 Feb 2024 00:13:12 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-wavy-slider/</guid>
+      <description>Github仓库</description>
+      
+    </item>
+    
     <item>
       <title>Jetpack Compose 从 0 入门</title>
       <link>https://lilkon.cn/posts/jetpack-compose-start/</link>

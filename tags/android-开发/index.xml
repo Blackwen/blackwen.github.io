@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android 开发 on Vinkon&#39;s Blog</title>
+    <link>https://lilkon.cn/tags/android-%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in Android 开发 on Vinkon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 VinKon</copyright>
+    <lastBuildDate>Sun, 04 Feb 2024 00:13:12 +0800</lastBuildDate><atom:link href="https://lilkon.cn/tags/android-%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wavy-slider-一个类似于 Android 13 中的kotlin多平台波浪进度条库</title>
+      <link>https://lilkon.cn/posts/kotlin-wavy-slider/</link>
+      <pubDate>Sun, 04 Feb 2024 00:13:12 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-wavy-slider/</guid>
+      <description>Github仓库</description>
+      
+    </item>
+    
+  </channel>
+</rss>
