@@ -4,13 +4,19 @@
 
   <url>
     <loc>https://lilkon.cn/posts/</loc>
-    <lastmod>2024-02-04T00:13:12+08:00</lastmod>
+    <lastmod>2024-02-04T14:14:42+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lilkon.cn/</loc>
-    <lastmod>2024-02-04T00:13:12+08:00</lastmod>
+    <lastmod>2024-02-04T14:14:42+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lilkon.cn/posts/kotlin-zoomable/</loc>
+    <lastmod>2024-02-04T14:14:42+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
