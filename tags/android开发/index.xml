@@ -29,6 +29,26 @@
     </item>
     
     <item>
+      <title>Zoomable-一个支持图片双指缩放的Jetopack Compose库</title>
+      <link>https://lilkon.cn/posts/kotlin-zoomable/</link>
+      <pubDate>Sun, 04 Feb 2024 14:14:42 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-zoomable/</guid>
+      <description>Github仓库</description>
+      
+    </item>
+    
+    <item>
+      <title>Wavy-slider-一个类似于 Android 13 中的kotlin多平台波浪进度条库</title>
+      <link>https://lilkon.cn/posts/kotlin-wavy-slider/</link>
+      <pubDate>Sun, 04 Feb 2024 00:13:12 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/kotlin-wavy-slider/</guid>
+      <description>Github仓库</description>
+      
+    </item>
+    
+    <item>
       <title>Jetpack Compose 从 0 入门</title>
       <link>https://lilkon.cn/posts/jetpack-compose-start/</link>
       <pubDate>Fri, 02 Feb 2024 22:10:59 +0800</pubDate>
