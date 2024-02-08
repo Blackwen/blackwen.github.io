@@ -99,7 +99,7 @@
     "keywords": ["Android开发","Kotlin"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "22"
+    "wordCount": "64"
   }]
   </script>
 
@@ -501,7 +501,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-02-08 11:35:59 &#43;0800 CST">8 February 2024</time><span class="px-2 text-primary-500">&middot;</span><span>22 words</span>
+  <time datetime="2024-02-08 11:35:59 &#43;0800 CST">8 February 2024</time><span class="px-2 text-primary-500">&middot;</span><span>64 words</span>
   
 
   
@@ -707,6 +707,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#开始">开始</a></li>
+    <li><a href="#实例">实例</a></li>
   </ul>
 </nav>
   </div>
@@ -721,6 +722,7 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#开始">开始</a></li>
+    <li><a href="#实例">实例</a></li>
   </ul>
 </nav>
   </div>
@@ -768,7 +770,31 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="n">sonner</span> <span class="p">=</span> <span class="p">{</span> <span class="n">module</span> <span class="p">=</span> <span class="s2">&#34;io.github.dokar3:sonner&#34;</span><span class="p">,</span> <span class="n">version</span> <span class="p">=</span> <span class="s2">&#34;&lt;VERSION&gt;&#34;</span> <span class="p">}</span>
 </span></span></code></pre></div><p>如果没有这个文件请在<code>gradle</code>目录下手动新建一个名为<code>libs.versions.toml</code>的文件,具体参考<a href="https://developer.android.com/build/migrate-to-catalogs?hl=zh-cn#create-version"   target="_blank">
     Google开发者文档</a></p>
-
+<div id="实例" class="anchor"></div>
+<h2 class="relative group">实例 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%ae%9e%e4%be%8b" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="nd">@Composable</span>
+</span></span><span class="line"><span class="cl"><span class="k">fun</span> <span class="nf">ToastDemo</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">val</span> <span class="py">toaster</span> <span class="p">=</span> <span class="n">rememberToasterState</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Button</span><span class="p">(</span><span class="n">onClick</span> <span class="p">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">toaster</span><span class="p">.</span><span class="n">show</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">message</span> <span class="p">=</span> <span class="s2">&#34;Hello world!&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">type</span> <span class="p">=</span> <span class="nc">ToastType</span><span class="p">.</span><span class="n">Normal</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Text</span><span class="p">(</span><span class="s2">&#34;Show a toast&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Toaster</span><span class="p">(</span><span class="n">state</span> <span class="p">=</span> <span class="n">toaster</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>以上是一个简单的实例,在点击按钮后会在屏幕下方显示一个普通类型的Toast,或者修改<code>type</code>来修改不同的类型</p>
+<pre tabindex="0"><code>Normal | Success | Info | Warning | Error
+</code></pre>
         </div>
                 
         
