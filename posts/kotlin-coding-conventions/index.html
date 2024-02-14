@@ -64,7 +64,7 @@
   
   
   <meta property="og:title" content="Kotlin 编码规范" />
-<meta property="og:description" content="源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致." />
+<meta property="og:description" content="编码规范 # 源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lilkon.cn/posts/kotlin-coding-conventions/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-14T19:41:28+08:00" />
@@ -72,7 +72,7 @@
 
 
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Kotlin 编码规范"/>
-<meta name="twitter:description" content="源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致."/>
+<meta name="twitter:description" content="编码规范 # 源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致."/>
 
   
   <script type="application/ld+json">
@@ -83,7 +83,7 @@
     "name": "Kotlin 编码规范",
     "headline": "Kotlin 编码规范",
     
-    "abstract": "源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致.",
+    "abstract": "编码规范 # 源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致.",
     "inLanguage": "en",
     "url" : "https:\/\/lilkon.cn\/posts\/kotlin-coding-conventions\/",
     "author" : {
@@ -99,7 +99,7 @@
     "keywords": ["Kotlin","笔记","文档"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "17"
+    "wordCount": "29"
   }]
   </script>
 
@@ -501,7 +501,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-02-14 19:41:28 &#43;0800 CST">14 February 2024</time><span class="px-2 text-primary-500">&middot;</span><span>17 words</span>
+  <time datetime="2024-02-14 19:41:28 &#43;0800 CST">14 February 2024</time><span class="px-2 text-primary-500">&middot;</span><span>29 words</span>
   
 
   
@@ -706,8 +706,17 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#源文件名称">源文件名称</a></li>
-    <li><a href="#多平台项目">多平台项目</a></li>
+    <li><a href="#编码规范">编码规范</a>
+      <ul>
+        <li><a href="#源文件名称">源文件名称</a></li>
+        <li><a href="#多平台项目">多平台项目</a></li>
+      </ul>
+    </li>
+    <li><a href="#命名规则">命名规则</a>
+      <ul>
+        <li><a href="#包与类名">包与类名</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -721,8 +730,17 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#源文件名称">源文件名称</a></li>
-    <li><a href="#多平台项目">多平台项目</a></li>
+    <li><a href="#编码规范">编码规范</a>
+      <ul>
+        <li><a href="#源文件名称">源文件名称</a></li>
+        <li><a href="#多平台项目">多平台项目</a></li>
+      </ul>
+    </li>
+    <li><a href="#命名规则">命名规则</a>
+      <ul>
+        <li><a href="#包与类名">包与类名</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -738,24 +756,32 @@
 
 
         <div class="max-w-prose mb-20">
-          <div id="源文件名称" class="anchor"></div>
-<h2 class="relative group">源文件名称 
+          <div id="编码规范" class="anchor"></div>
+<h2 class="relative group">编码规范 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e7%bc%96%e7%a0%81%e8%a7%84%e8%8c%83" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="源文件名称" class="anchor"></div>
+<h3 class="relative group">源文件名称 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#%e6%ba%90%e6%96%87%e4%bb%b6%e5%90%8d%e7%a7%b0" aria-label="Anchor">#</a></span>        
     
-</h2>
+</h3>
 <p>如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致. (这适用于所有类型的函数,类和接口)</p>
 <p>如果包含多个函数,类或接口.那么文件名应该能概括他们, 例如 <code>ProcessDeclarations.kt</code></p>
 <div id="多平台项目" class="anchor"></div>
-<h2 class="relative group">多平台项目 
+<h3 class="relative group">多平台项目 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#%e5%a4%9a%e5%b9%b3%e5%8f%b0%e9%a1%b9%e7%9b%ae" aria-label="Anchor">#</a></span>        
     
-</h2>
+</h3>
 <p>在多项目平台中,不同平台的文件名称后需要加上后缀,比如:</p>
 <ul>
 <li>
@@ -769,6 +795,24 @@
 </li>
 </ul>
 <p>对于共同源码(commonMain/kotlin/Platform.kt), 则不需要后缀</p>
+<div id="命名规则" class="anchor"></div>
+<h2 class="relative group">命名规则 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%91%bd%e5%90%8d%e8%a7%84%e5%88%99" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="包与类名" class="anchor"></div>
+<h3 class="relative group">包与类名 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%8c%85%e4%b8%8e%e7%b1%bb%e5%90%8d" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>包的名称总是小写且不使用下划线,例如 <code>org.example.project</code>, 尽量不要使用多个词作为包的名称.</p>
+<p>如果需要使用多个词，请将它们连接在一起并使用驼峰风格, 例如 <code>org.example.myProject</code>.</p>
 
         </div>
                 

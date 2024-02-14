@@ -14,7 +14,7 @@
       <pubDate>Wed, 14 Feb 2024 19:41:28 +0800</pubDate>
       
       <guid>https://lilkon.cn/posts/kotlin-coding-conventions/</guid>
-      <description>源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致.</description>
+      <description>编码规范 # 源文件名称 # 如果 Kotlin 文件中包含单个函数,类或是接口,那么文件名应该保持一致.</description>
       
     </item>
     
