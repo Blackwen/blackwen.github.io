@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 VinKon</copyright>
-    <lastBuildDate>Wed, 14 Feb 2024 19:41:28 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 04:46:26 +0800</lastBuildDate><atom:link href="https://lilkon.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematics Set Study</title>
+      <link>https://lilkon.cn/posts/mathematics-set/</link>
+      <pubDate>Fri, 16 Feb 2024 04:46:26 +0800</pubDate>
+      
+      <guid>https://lilkon.cn/posts/mathematics-set/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Kotlin 编码规范</title>
       <link>https://lilkon.cn/posts/kotlin-coding-conventions/</link>
