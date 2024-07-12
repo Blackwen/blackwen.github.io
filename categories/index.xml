@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Vinkon&#39;s Blog</title>
-    <link>https://lilkon.cn/categories/</link>
-    <description>Recent content in Categories on Vinkon&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2024 VinKon</copyright>
-    <atom:link href="https://lilkon.cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <title>Categories on 文康的博客</title>
+    <link>https://lilkon.me/categories/</link>
+    <description>Recent content in Categories on 文康的博客</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://lilkon.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
